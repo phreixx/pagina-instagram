@@ -11,7 +11,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(29, 29, 29);
     margin: 0;
     padding: 0;
     display: flex;
@@ -24,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 50%;
     height: 100vh;
     
 }
@@ -34,7 +34,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
-
+   
 }
 
 .instagram-phone img{
@@ -56,14 +56,15 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
-    width: 100%;
+    background-color:rgb(46, 45, 45);
+    width: 80%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(7, 7, 7);
+   
 }
 
 .group:nth-child(1) {
-    min-height: 19rem; 
+    min-height: 20rem; 
 
 }
 
@@ -82,12 +83,12 @@ body {
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 8rem;
 }
 
 .instagram-login {
 
-    background-color: #0095f6;
+    background-color: #0062f6;
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
@@ -98,7 +99,7 @@ body {
 .instagram-logout {
 
 color: #0095f6;
-margin-top: 1rem;
+margin-top: 0rem;
 font-weight: bold;
 
 
@@ -109,6 +110,7 @@ font-weight: bold;
 }
 .link-blue {
     color: #0095f6;
+    font-weight: bold;
 
 }
 .get-the-app {
@@ -121,7 +123,8 @@ font-weight: bold;
 
 }
 .get-app {
-    font-weight: bold;
+        color: rgb(160, 160, 160);
+        font-weight: bold; 
 }
 .download {
     display: flex;
@@ -134,18 +137,18 @@ font-weight: bold;
 
     height: 3rem;
     width: 10rem;
-    background-size: cover;
+    background-size: contain;
 
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./apple-button.png')
+    background-image: url('./img/apple-button.png')
 
 
 
 }
 .app-download:nth-child(2) {
-    background-image: url('./googleplay-button.png');
+    background-image: url('./img/googleplay-button.png');
 }
 
 /* media queries*/
@@ -158,10 +161,10 @@ font-weight: bold;
 
 @media (max-width: 650px) {
 
-    body {background-color: aliceblue;
+    body {background-color: rgb(29, 29, 29);
     }
     .instagram-wrapper {
-        width: 90%
+        width: 90%;
     }
     .instagram-phone {
         display: none;
